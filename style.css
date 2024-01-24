@@ -1,0 +1,22 @@
+body{
+    background-size: cover;
+    text-align: center;
+}
+.title{
+    background-color: transparent;
+    font-size:150px; 
+}
+.btn{
+    
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 30px #18ffff;}
+    to{box-shadow: 3px 3px 30px #18FF;}
+}
